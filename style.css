@@ -1,0 +1,187 @@
+*
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px;
+}
+
+.hero-text {
+  flex: 1;
+  text-align: left;
+}
+
+.hero-image {
+  flex: 1;
+  text-align: right;
+}
+
+.hero-image img {
+  width: 250px;
+  border-radius: 10px;
+}
+
+.hero-text h1 span {
+  color: #ff6600; /* highlight color */
+}
+
+.buttons .btn {
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Poppins', sans-serif;
+}
+
+body{
+  background:#f8f8f8;
+  color:#111;
+}
+
+/* NAVBAR */
+.nav-wrapper{
+  display:flex;
+  justify-content:center;
+  margin-top:20px;
+}
+
+nav{
+  background:#111;
+  color:white;
+  padding:12px 30px;
+  border-radius:50px;
+  display:flex;
+  gap:50px;
+  align-items:center;
+}
+
+nav ul{
+  display:flex;
+  gap:25px;
+  list-style:none;
+}
+
+nav li{
+  cursor:pointer;
+}
+
+.active{
+  background:#ff914d;
+  padding:5px 15px;
+  border-radius:20px;
+}
+
+/* HERO */
+.hero{
+  text-align:center;
+  padding:80px 20px;
+  position:relative;
+}
+
+.badge{
+  display:inline-block;
+  padding:6px 15px;
+  border:1px solid #ddd;
+  border-radius:20px;
+  margin-bottom:20px;
+}
+
+.hero h1{
+  font-size:48px;
+}
+
+.hero span{
+  color:#ff914d;
+}
+
+.buttons{
+  margin-top:20px;
+}
+
+.primary{
+  background:#ff914d;
+  color:white;
+  padding:10px 20px;
+  border:none;
+  border-radius:20px;
+}
+
+.secondary{
+  margin-left:10px;
+  padding:10px 20px;
+  border-radius:20px;
+  border:1px solid #ccc;
+  background:white;
+}
+
+.hero-img{
+  margin-top:40px;
+}
+
+.hero-img img{
+  width:280px;
+  border-radius:20px;
+}
+
+/* SERVICES */
+.services{
+  background:#111;
+  color:white;
+  padding:60px;
+  border-radius:40px;
+  margin:50px;
+}
+
+.cards{
+  display:flex;
+  gap:20px;
+  justify-content:center;
+  margin-top:30px;
+}
+
+.card{
+  background:rgba(255,255,255,0.08);
+  backdrop-filter:blur(10px);
+  padding:20px;
+  border-radius:20px;
+  width:250px;
+  transition:0.3s;
+}
+
+.card:hover{
+  transform:translateY(-10px);
+}
+
+.card img{
+  width:100%;
+  border-radius:15px;
+}
+
+/* PROJECTS */
+.projects{
+  padding:60px;
+}
+
+.grid{
+  display:flex;
+  gap:20px;
+  justify-content:center;
+  margin-top:30px;
+}
+
+.box{
+  width:250px;
+}
+
+.box img{
+  width:100%;
+  border-radius:15px;
+}
